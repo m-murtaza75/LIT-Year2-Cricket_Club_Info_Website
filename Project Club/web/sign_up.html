@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+Author: Muhammad Murtaza
+Student ID: K00223470
+Page no: 5 Register
+-->
+<html>
+    <head>
+        <title>Sign Up Page</title>
+         <link rel="stylesheet" type="text/css" href="clubStyling.css">   <!-- Code for Adding CSS file -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="wrapper">
+    <header>
+        <img src="Club_Logo/badge.jpg" width="130" height="150">
+        <br><br>
+        <h1>Cork County Cricket Club</h1>
+    <div class="navigation">
+    <nav>  <!-- Navigation Links for different pages -->
+    <ul>
+    <li><a href="index.html">Home</a></li>  
+    <li><a href="about_us.html">About Us</a>
+        <ul>
+            <li><a href="Captains">Club Captains</a></li>
+            <li><a href="newsEvent.html">News & Events</a></li>
+        </ul>
+    </li>
+    <li><a href="Rankings">Rankings</a></li>
+    <li><a href="contact_us.html">Contact Us</a></li>
+    <li><a href="#">Become Member</a>
+    <ul>
+	   <li><a href="sign_up.html">Register</a></li>
+	   <li><a href="sign_in.html">Sign In</a></li>
+	</ul>
+	</li>
+    </ul>
+    </nav>
+    </div>
+    </header>
+        <br><br><br><br><br><br><br><br><br>
+        <div id="header2">
+            <center>
+                <H1 style="color:oldlace; font-size: 50px;">Welcome to Sign up Page </H1>
+            </center>
+        </div>
+        <h3 style="color: cornflowerblue;"> User! Please enter the following details to register with us </h3>
+        <br><br>
+        <div id="membershipForm">
+            <h2 style="color:oldlace; font-size: 32px;">Membership Form</h2>
+        </div>
+        <br><br>
+        <form action="MemberSignup" method="POST">
+            <p style="line-height: 0.01;">&nbsp&nbspFirst Name:</p> 
+            &nbsp&nbsp<input type="text" name="first_name">
+            <br><br>
+            <p style="line-height: 0.01;">&nbsp&nbspSurname:</p> 
+            &nbsp&nbsp<input type="text" name="surname">
+            <br><br>
+            <p style="line-height: 0.01;">&nbsp&nbspAddress:</p>
+            &nbsp&nbsp<input type="text" name="address">
+            <br><br>
+            <p style="line-height: 0.01;">&nbsp&nbspTelephone Number:</p>
+            &nbsp&nbsp<input type="text" name="telephone_number">
+            <br><br>
+            <p style="line-height: 0.01;">&nbsp&nbspEmail:</p>            
+            <p style="line-height: 0.01;">&nbsp&nbsp<input type="text" name="email">
+            <br><br>
+            <p style="line-height: 0.01;">&nbsp&nbspPassword:</p>            
+            &nbsp&nbsp<input type="text" name="password">
+            <br><br>
+            <p style="line-height: 0.01;">&nbsp&nbspPrevious Club(s):</p>            
+            &nbsp&nbsp<input type="text" placeholder="None" name="previous_club">
+            *If this is your first club ignore this field
+            <br><br>
+            <p style="line-height: 0.01;">&nbsp&nbspMembership Category</p>
+            <br>
+            &nbsp&nbsp<select name="membership_category">
+            <option value="Adult Full Playing" />Adult Full Playing</option>
+            <option value="Third Level Student" />3rd Level Student(18+)</option>
+            <option value="Schoolboy" />Schoolboy (15-18)</option>
+            <option value="Youth" />Youth (<15)</option>
+            <option value="Pavilion" />Pavilion</option>
+            <option value="Family" />Family</option>
+            </select>
+            <br><br>
+            <p>&nbsp&nbspAs a member of Cork County Cricket Club, you must abide by the Rules of the Club as set down by the Committee and are required to inform them of any change to the contact details as set out in this form.</p>
+            <br>
+            &nbsp&nbsp<input style="width: 120px;" type="submit" value="Submit">            
+        </form>
+        <br><br>
+        <footer> 
+            <center> 
+                <img src="Club_Logo/badge.jpg" width="50" height="50"> 
+                <h2>Cork County Cricket Club</h2>
+                <h6>Richard Beamish Cricket Grounds,</h6>
+                <h6>Mardyke, Cork, T12 YN61, Ireland.</h6>
+                <h6>+353 (0)21 4272569</h6>
+                <h6>corkcountycc@gmail.com</h6>
+                <h6>Copyright © 2018 Cork County Cricket Club.</h6> 
+            </center>
+        </footer>
+    </div>
+    </body>
+</html>

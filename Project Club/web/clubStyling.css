@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-Apr-2018, 11:24:49
+    Author     : Muhammad Murtaza
+*/
+
+@media  (min-width:250px) {body{
+         background:#D3D3D3;}
+		 
+}
+
+
+@media  (min-width:800px) {body{
+         background:#5B2C6F;}
+		 
+}
+
+@media  (min-width:1000px) {body{
+         background:#721919;}
+}
+
+
+body{
+        position:fluid;
+        font-family: Georgia, Times, serif;					    
+        padding:50px;
+    }
+    
+    .wrapper {
+                width: 98%;
+                position: fluid;
+                margin: 0px auto 0px auto;
+                border: 2px solid #000000;
+             }
+			
+    header  {
+                height: 230px;
+                background-image: url("images/header.jpg");
+                color:#ccb85f;
+            }
+    
+    
+    .navigation {
+            height:22%;
+            background-image: url("images/blackwood.png");
+            background-color: #aeaca8;
+            margin-top:3%;
+            clear: both;
+            text-align:right
+        }
+        
+        
+				
+                nav ul {
+                            padding:0px;
+                            list-style-type:none;
+                        }
+				 
+        nav li  {
+	         
+	         width:125px;
+			 text-align:center;
+			 position:relative;
+			 float:left;
+			 margin-right: 4px;
+             }
+
+        nav li a {
+				text-decoration:none;
+				width:125px;
+				height:25px;
+				line-height:25px;
+				background:rgba(0,0,0,0.5);
+			
+              }
+        nav li a:hover, nav li{
+                                color:yellowgreen;
+                              }
+       
+        nav ul ul {
+                    display:none;
+                    position:absolute;
+                    top:26px;
+                    left:0px;
+		  }
+        nav li:hover ul
+        {
+	   display:block;
+				
+	}
+        
+        p {
+            color: whitesmoke;
+        }
+        #header2 {
+                height: 80px;
+                background-image: url("images/red-header.jpg");
+        }
+        
+        #membershipForm {
+            height: 50px;
+            width: 500px;
+                background-image: url("images/red-header.jpg");
+        }
+        
+        .clubSponsor {
+            height: 50px;
+            background-image: url("images/grey-header.jpg");
+            
+        }
+        
+        .clubPartners {
+            height: 45px;
+            background-image: url("images/grey-header.jpg");
+        }
+        
+        .season_sponsors2018 {
+            height: 50px;
+            background-image: url("images/grey-header.jpg");
+        }
+        
+footer 
+{
+        clear: both;
+        color: #3A7323;
+        position: fluid;
+        background-color: #020600;
+        height:295px;
+}
+
+
+img {
+    max-width:100%;
+}
